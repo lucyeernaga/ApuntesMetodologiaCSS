@@ -7,20 +7,38 @@
 .header {
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
+.header__logo {
+    width: 30%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.header__nav {
+    width: 100%;
+    gap: 30px;
+}
+
+
+
+
 
 /* Estilos del main */
 
 .container {
-    height: 90vh;
-    width: 90vw;
+    padding: 10px;
 }
 
 .galery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
 }
 
 .galery-img {
