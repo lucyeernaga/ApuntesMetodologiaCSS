@@ -111,3 +111,34 @@ Es decir, los nombres de las clases se basan en propiedades como color, centrar.
 Es recomemdada para usar con REACTJS y las clases se organizan en base a: 
 - Utilidades
 - Componentes
+
+
+En la sistaxis de cada elemento debemos de tener en cuenta el tipo de nomenclatura que debemos de aplicar: 
+- `Utilidad`: u-
+- `Namespace`: -(antes) (donde se encuentra el componente al cual le quiero aplicar estilos)
+
+
+```html
+<header class= "Header">
+    <h1 class= "Header-logo"></h1>
+    <ul class= "Header-menu">
+        <li class= "Header-li"></li>
+        <li class= "Header-li Header-li.Active"></li>
+        <li class= "Header-li"></li>
+    </ul>
+</header>
+```
+
+
+
+
+
+
+### Ventajas y desventajas de SUIT
+SUIT tiene muchas `ventajas` en el código de día a día:
+- Muy pensado para usar con preprocesadores (SCSS)
+- Por regla general se recomienda usar con REACTJS
+
+
+Pero tb tiene alguna `desventajas`:
+- Es más dificl usarlo en una web clásica
