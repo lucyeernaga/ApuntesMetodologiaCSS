@@ -35,14 +35,14 @@ body {
     list-style: none;
 }
 
-.NavUl-Link {
+.Nav-Link {
     padding: 10px;
     text-decoration: none;
     color: black;
 }
 
 .isActive {
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 5px;
 }
 
